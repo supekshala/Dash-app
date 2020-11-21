@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "517033021892",
+    "firebase_url": "https://dash-app-51c2e.firebaseio.com",
+    "project_id": "dash-app-51c2e",
+    "storage_bucket": "dash-app-51c2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517033021892:android:037b2a33ae25c827cb5491",
+        "android_client_info": {
+          "package_name": "com.dash_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517033021892-bmddj9b6rjcs6j0tmpgitf1q0ejrsbi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3w0CAix1UYyIDHZBJIZV6aBlyivSWnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517033021892-bmddj9b6rjcs6j0tmpgitf1q0ejrsbi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
