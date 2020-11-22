@@ -1,22 +1,28 @@
 import 'dart:math';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 
 
 
-class Authservice {
+class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 // sign anno
 Future signInAnon() async{
-  try{
+  try {
     UserCredential result = await _auth.signInAnonymously();
     User user = result.user;
     return user;
   }
-  catch (e)
-  print(e.toString());
-  return null;
-  {
+  catch  (e) {
+
+    print(e.toString());
+    return null;
+  }
 }
 //sign email and password
+
+
+
+
 //sign out
 }
