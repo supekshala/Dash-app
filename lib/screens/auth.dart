@@ -15,6 +15,16 @@ class AuthService {
   {
   return user != null ? Member(uid: user.uid) : null;
   }
+
+  // auth change user stream
+  Stream<Member> get user{
+   return _auth.authStateChanges()
+   //.map((User user)=>_userFromUser(user));
+   .map(_fromFirebaseUser);
+
+  }
+
+
 // sign anno
   Future signInAnon() async{
     try {
