@@ -1,15 +1,19 @@
 
+import 'package:dash_app/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
+
 
 
 
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
+  //FirebaseAuth _auth = FirebaseAuth.instance;
   // create new user object based on FirebaseUser
- User _fromFirebaseUser(User user)
+ Member _fromFirebaseUser(User user)
   {
-  return user != null ? User(uid: user.uid) : null;
+  return user != null ? Member(uid: user.uid) : null;
   }
 // sign anno
   Future signInAnon() async{

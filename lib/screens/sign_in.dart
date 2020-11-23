@@ -7,9 +7,10 @@ class SignIn extends StatefulWidget {
   _SignInState createState() => _SignInState();
 }
 
-final AuthService _auth= AuthService();
+
 
 class _SignInState extends State<SignIn> {
+  final AuthService _auth= AuthService();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +23,7 @@ class _SignInState extends State<SignIn> {
         body: Container(
           padding: EdgeInsets.symmetric(vertical:20.0, horizontal: 50.0, ),
           child: RaisedButton(
-            child: Text('sign in action'),
+            child: Text('sign in Anon'),
             onPressed:() async{
             dynamic result= await _auth.signInAnon();
             if (result==null){
