@@ -1,5 +1,5 @@
 
-import 'package:dash_app/user.dart';
+import 'package:dash_app/member.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 
