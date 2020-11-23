@@ -1,4 +1,4 @@
-import 'package:dash_app/auth.dart';
+import 'file:///C:/Users/K.S.HETTIARACHCHI/AndroidStudioProjects/Dash-app/lib/screens/auth.dart';
 import 'package:flutter/material.dart';
 
 

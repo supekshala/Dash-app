@@ -1,6 +1,6 @@
-import 'package:dash_app/sign_in.dart';
+import 'file:///C:/Users/K.S.HETTIARACHCHI/AndroidStudioProjects/Dash-app/lib/screens/sign_in.dart';
 import 'package:flutter/material.dart';
-class athunticate extends StatelessWidget {
+class Athunticate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

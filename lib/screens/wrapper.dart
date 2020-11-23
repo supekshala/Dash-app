@@ -1,10 +1,9 @@
-import 'package:dash_app/home.dart';
 import  'package:flutter/material.dart';
-import 'package:dash_app/athunticate.dart';
+import 'file:///C:/Users/K.S.HETTIARACHCHI/AndroidStudioProjects/Dash-app/lib/screens/athunticate.dart';
 
 class Wrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  athunticate();
+    return  Athunticate();
   }
 }
