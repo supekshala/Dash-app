@@ -1,5 +1,5 @@
 
-import 'package:dash_app/member.dart';
+import 'package:dash_app/models/member.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 
@@ -44,4 +44,16 @@ class AuthService {
 
 
 //sign out
+Future signout()async{
+  try{
+    return await _auth.signOut();
+
+  }catch(e){
+    print(e.toString());
+    return null;
+    
+  }
+
 }
+}
+
